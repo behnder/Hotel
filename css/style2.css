@@ -210,6 +210,8 @@ background-color: rgb(190, 126, 84);
 }
 
 /* ABOUT PAGE */
+
+/* SECCION 1 */
 .about-left{
     flex:float;
     max-width: 50%;
@@ -228,28 +230,84 @@ background-color: rgb(190, 126, 84);
 }
 
 .about-right{
-    
-    display: flex;
+    flex:float;
+    max-width: 50%;
     float: left;
     
-   
-    padding: 50px;
-    min-width: 50%;
+}
+.image-right img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* SECCION 2 */
+
+.about-main-testimonials{
+    
+    background-image: url("/img/test-bg.jpg") ;
+    background-size: cover;
+    
     
     height: 500px;
+    padding: 50px;
     
-    
-   
-    
-   
     
 }
-.image-right{
-    min-width: 50%;
+.title-test{
+    text-align: center;
+   
+    font-size: 40px;
+    font-weight: bolder;
+    color:tomato
     
-    height: 500px;
+}
+.about-testimonial{
+    float: left;
+    background: wheat;
+    padding: 15px;
+    margin: 20px;
     
+    
+    
+}
+.about-test-text2{
+    float:right;
+    max-width: 85%;
+    text-align: center;
+    
+}
+
+.about-img{
+    float: left;
+    width: 10%;
     border-radius: 50%;
-     background-image: url("/img/photo-2.jpg");
-    background-size: 100% ;
+    
+}
+
+
+/* FORM */
+label{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+input{
+    line-height: 25px;
+    width: 100%;
+    border: 1px black solid;
+    border-color: darkgray;
+    
+}
+
+textarea{
+    width: 100%;
+    border: 1px black solid;
+    border-color: darkgray;
+}
+form{
+    padding: 50px 0 ;
+
 }
