@@ -38,10 +38,15 @@
 }
 
 .about-img {
-  width: 100px;
+  width: 50px;
+  display: none;
 }
 
 .about-test-text2 p {
   float: none;
+}
+
+.about-main-testimonials {
+  padding: 10px;
 }
 /*# sourceMappingURL=mobile.css.map */

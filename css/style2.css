@@ -214,18 +214,22 @@ a {
 /* SECCION 2 */
 
 .about-main-testimonials {
-	background-image: url("/img/test-bg.jpg");
-	background-size: cover;
+	float: left;
+	height: 100%;
+	width: 100%;
+	background: black url("/img/test-bg.jpg") no-repeat center/cover;
+	
 
-	height: 500px;
-	padding: 50px;
+	
+	
+	padding: 100px;
 }
 .title-test {
 	text-align: center;
 
 	font-size: 40px;
 	font-weight: bolder;
-	color: tomato;
+	color: rgb(238, 232, 231);
 }
 .about-testimonial {
 	float: left;
@@ -235,17 +239,20 @@ a {
 }
 .about-test-text2 {
 	float: right;
-	max-width: 85%;
-	text-align: center;
+	
 }
 
 .about-img {
 	float: left;
 	width: 10%;
 	border-radius: 50%;
+	margin: 0 1rem;
 }
 
 /* FORM */
+.about-hotel{
+	padding:3rem;
+}
 label {
 	display: block;
 	padding-top: 20px;
