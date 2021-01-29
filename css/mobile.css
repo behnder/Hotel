@@ -1,0 +1,47 @@
+.title {
+  float: none;
+  text-align: center;
+}
+
+.navbar {
+  float: none;
+}
+
+.navbar li,
+.navbar a {
+  float: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.image-left, .hotel-history {
+  float: none;
+  width: 100%;
+}
+
+.prefooter {
+  float: none;
+  max-width: 100%;
+  width: 100%;
+}
+
+.about-left {
+  float: none;
+  max-width: 100%;
+  text-align: center;
+}
+
+.about-right {
+  float: none;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.about-img {
+  width: 100px;
+}
+
+.about-test-text2 p {
+  float: none;
+}
+/*# sourceMappingURL=mobile.css.map */
